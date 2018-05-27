@@ -1,0 +1,15 @@
+{
+  "name": "ctt-local-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "desktop.js",
+  "scripts": {
+    "win32-deps": "npm install --global --production windows-build-tools",
+    "start": "node index.js"
+  },
+  "author": "",
+  "dependencies": {
+    "firebase-admin": "^5.12.1",
+    "robotjs": "^0.5.1"
+  }
+}
